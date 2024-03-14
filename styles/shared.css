@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Anton;
+    src: url(/fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: serif-bold;
+    src: url(/fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: serif-regular;
+    src: url(/fonts/PTSerif-Regular.ttf);
+}
+
+body{
+    text-align: center;
+    margin: 20px;
+
+}
+
+h1{
+    font-family: Anton;
+    font-size: 65px;
+    color: rgb(23, 27, 223);
+    margin-block: 0;
+}
+
+p, li{
+    font-family: serif-regular;
+    color: aliceblue;
+    font-size: 18px;
+    padding-bottom: 4px;
+    padding-top: 0;
+    margin-block: 0;
+}
+
+h2{
+    font-family: serif-bold;
+    color: rgb(240, 248, 255);
+}
+
+main{
+    width: 800px;
+    height: 670px;
+    margin: 20px auto;
+    background-color: rgb(23, 27, 223);
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: #f2f93c;
+}
+
+
+
+main>p{color:red;}
